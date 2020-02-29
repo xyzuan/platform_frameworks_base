@@ -7432,5 +7432,8 @@ message MetricsEvent {
     // Weeeeaboooo constant
     WEEB = 2499;
 
+     // Panel for Bluetooth
+    PANEL_BLUETOOTH = 9996;
+
   }
 }
