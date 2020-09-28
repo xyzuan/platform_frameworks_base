@@ -29,11 +29,14 @@ import android.net.NetworkInfo;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.PowerManager;
+import android.os.RemoteException;
 import android.os.SystemProperties;
 import android.os.SystemClock;
 import android.view.InputDevice;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
+
+import com.android.internal.statusbar.IStatusBarService;
 
 import com.android.internal.R;
 
