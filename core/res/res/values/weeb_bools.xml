@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
    Copyright (C) 2018-2020 WeebPrjkt
    Copyright (C) 2020 xyzscape prjkt
@@ -11,17 +12,9 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-<resources>
-
-    <!-- App error dialog -->
-    <java-symbol type="id" name="aerr_copy" />
-    <java-symbol type="string" name="url_copy_success" />
-    <java-symbol type="string" name="url_copy_failed" />
-
-    <!-- Power menu -->
-    <java-symbol type="array" name="config_rebootActionsList" /> 
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Whether device supports an alt. ambient display -->
-    <java-symbol type="bool" name="config_alt_ambient_display"/>
+    <bool name="config_alt_ambient_display">false</bool>
 
 </resources>
